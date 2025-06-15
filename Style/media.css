@@ -1,0 +1,109 @@
+@media only screen and (min-width : 200px) and (max-width : 575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+    .header-left{
+        justify-content: center;
+        gap:10px;
+    }
+    .product-btn button{ 
+        padding: 10px 20px;  
+    }
+    .header-logo{
+        padding: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .header-address h3{
+        font-size: 16px;
+        
+    }
+    .header-address{  
+        padding-bottom: 17px;
+    }
+    .header-address p{
+        font-size: 14px;
+    }
+    .header-logo img{
+        height: 130px;
+        width: 180px;
+    } 
+    .search-box{
+        position: relative;
+        bottom: 20px;
+
+    }
+    
+    .header-btn{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        background-color: aliceblue;
+    }
+
+    .banner-section{
+        display: none;
+    }
+
+    .order-banner{
+        flex-direction: column;
+        /* display: none; */
+    }
+    .catagory{
+        max-width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .catagory-item{
+        flex-basis: 25%;
+        
+
+    }
+    
+    .product{
+        padding: 20px 10px ;
+    }
+    
+    
+    .product-item{
+        padding-left: 18px;
+        flex-basis: 49%;
+    }
+
+    .footer-mid-row-one{
+        flex-direction: column;
+        padding: 10px;
+        padding-left: 40px;
+    }
+
+     .useful-links{
+        padding-left: 10px;
+    }   
+
+    footer {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .footer-mid-row-one-right{
+        display: none;
+    }
+
+    .footer-mid-row-two{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-mid-row-three{
+        font-size: 7px;
+        margin-bottom: 100px;
+    }
+}
+
